@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import TitleComponent from "./Components/TitleComponent";
+import StateButton from "./Components/StateEventHandlerComponent";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <StatusBar style="auto" />
       <TitleComponent title = 'Første title'/>
       <TitleComponent title = 'Anden title'/>
+      <StateButton />
     </View>
   );
 }
