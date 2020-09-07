@@ -7,7 +7,7 @@ import StateButton from "./Components/StateEventHandlerComponent";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hej Eline</Text>
+      <Text>Welcome</Text>
       <StatusBar style="auto" />
       <TitleComponent title = 'Første title'/>
       <TitleComponent title = 'Anden title'/>
