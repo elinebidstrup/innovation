@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import TitleComponent from "./Components/TitleComponent";
 import StateButton from "./Components/StateEventHandlerComponent";
+import InputComponent from "./Components/InputComponent";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <TitleComponent title = 'Første title'/>
       <TitleComponent title = 'Anden title'/>
       <StateButton />
+      <InputComponent />
     </View>
   );
 }
