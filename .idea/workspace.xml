@@ -10,7 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c600bc45-21d0-4a99-bfdf-932aab19179f" name="Default Changelist" comment="init" />
+    <list default="true" id="c600bc45-21d0-4a99-bfdf-932aab19179f" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/Components/TitleComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/sub_components/sub_title_component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,10 +24,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gwvCQd7pYF65bgnV1C1d0EuGqv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,8 +51,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Components" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/App.js" working-dir="$PROJECT_DIR$">
@@ -64,7 +85,7 @@
       <workItem from="1599038503622" duration="60000" />
       <workItem from="1599210221496" duration="350000" />
       <workItem from="1599488280445" duration="921000" />
-      <workItem from="1599490055723" duration="588000" />
+      <workItem from="1599490055723" duration="2217000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599490608661</created>
@@ -73,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599490608661</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1599490891857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599490891857</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,25 +124,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1599210597808">
+    <state width="679" height="203" key="GridCell.Tab.0.bottom" timestamp="1599492965069">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1599210597808" />
-    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1599210597807">
+    <state width="679" height="203" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1599492965069" />
+    <state width="679" height="203" key="GridCell.Tab.0.center" timestamp="1599492965068">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1599210597807" />
-    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1599210597806">
+    <state width="679" height="203" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1599492965068" />
+    <state width="679" height="203" key="GridCell.Tab.0.left" timestamp="1599492965067">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1599210597806" />
-    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1599210597807">
+    <state width="679" height="203" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1599492965067" />
+    <state width="679" height="203" key="GridCell.Tab.0.right" timestamp="1599492965068">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1599210597807" />
+    <state width="679" height="203" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1599492965068" />
     <state x="221" y="78" key="SettingsEditor" timestamp="1599210470941">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="221" y="78" key="SettingsEditor/0.23.1440.833@0.23.1440.833" timestamp="1599210470941" />
+    <state x="320" y="179" key="Vcs.Push.Dialog.v2" timestamp="1599490896596">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="320" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1599490896596" />
   </component>
 </project>

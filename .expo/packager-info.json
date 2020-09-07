@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 1888,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
-  "webpackServerPort": null
+  "packagerPid": 8593,
+  "expoServerNgrokUrl": "https://f8-pdi.elinebidstrup.helloworldexpo.exp.direct",
+  "packagerNgrokUrl": "https://packager.f8-pdi.elinebidstrup.helloworldexpo.exp.direct",
+  "ngrokPid": 8632,
+  "webpackServerPort": 19006
 }
